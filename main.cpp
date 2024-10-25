@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 
 // Global variables
 int global_var1 = 1;
@@ -47,9 +46,9 @@ void demonstrate_malloc() {
     *heap_var3 = 300;
 
     // Print heap memory addresses
-    std::cout << "Heap variable 1 address: " << heap_var1 << " with value: " << *heap_var1 << std::endl;
-    std::cout << "Heap variable 2 address: " << heap_var2 << " with value: " << *heap_var2 << std::endl;
-    std::cout << "Heap variable 3 address: " << heap_var3 << " with value: " << *heap_var3 << std::endl;
+    std::cout << "Heap variable 1 address: " << heap_var1 << " with value: " << *heap_var1 << "\n";
+    std::cout << "Heap variable 2 address: " << heap_var2 << " with value: " << *heap_var2 << "\n";
+    std::cout << "Heap variable 3 address: " << heap_var3 << " with value: " << *heap_var3 << "\n";
 
     // Free the allocated memory
     free(heap_var1);
