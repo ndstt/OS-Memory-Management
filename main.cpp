@@ -8,9 +8,9 @@ int global_var3 = 3;
 // Function to print the address of variables
 void print_addresses(const char* func_name, int* local_var) {
     std::cout << func_name << " - Local variable address: " << local_var << std::endl;
-    std::cout << "Global variable 1 address: " << &global_var1 << std::endl;
-    std::cout << "Global variable 2 address: " << &global_var2 << std::endl;
-    std::cout << "Global variable 3 address: " << &global_var3 << std::endl;
+    std::cout << "Global variable 1 address: " << &global_var1 << "\n";
+    std::cout << "Global variable 2 address: " << &global_var2 << "\n";
+    std::cout << "Global variable 3 address: " << &global_var3 << "\n\n";
 }
 
 // First function to demonstrate stack memory
@@ -62,6 +62,8 @@ int main() {
 
     // Demonstrate dynamic memory allocation
     demonstrate_malloc();
+    int main_var4 = 40;
+    std::cout << "\nMain - Local variable address: " << &main_var4 << "\n";
 
     return 0;
 }
