@@ -1,20 +1,23 @@
-function3 - Local variable address: 0x5fa21ff99c
-Global variable 1 address: 0x7ff73cfe3000
-Global variable 2 address: 0x7ff73cfe3004
-Global variable 3 address: 0x7ff73cfe3008
+function3 - Function address: 0x7ff7f2f115f6
+Local variable address: 0x40e01ff7ec
+Global variable 1 address: 0x7ff7f2f13000
+Global variable 2 address: 0x7ff7f2f13004
+Global variable 3 address: 0x7ff7f2f13008
 
-function2 - Local variable address: 0x5fa21ff95c
-Global variable 1 address: 0x7ff73cfe3000
-Global variable 2 address: 0x7ff73cfe3004
-Global variable 3 address: 0x7ff73cfe3008
+function2 - Function address: 0x7ff7f2f115bb
+Local variable address: 0x40e01ff7ac
+Global variable 1 address: 0x7ff7f2f13000
+Global variable 2 address: 0x7ff7f2f13004
+Global variable 3 address: 0x7ff7f2f13008
 
-function1 - Local variable address: 0x5fa21ff91c
-Global variable 1 address: 0x7ff73cfe3000
-Global variable 2 address: 0x7ff73cfe3004
-Global variable 3 address: 0x7ff73cfe3008
+function1 - Function address: 0x7ff7f2f11585
+Local variable address: 0x40e01ff76c
+Global variable 1 address: 0x7ff7f2f13000
+Global variable 2 address: 0x7ff7f2f13004
+Global variable 3 address: 0x7ff7f2f13008
 
-Heap variable 1 address: 0x161ea931450 with value: 100
-Heap variable 2 address: 0x161ea931470 with value: 200
-Heap variable 3 address: 0x161ea931490 with value: 300
+Heap variable 1 address: 0x1d7f9401450 with value: 100
+Heap variable 2 address: 0x1d7f9401470 with value: 200
+Heap variable 3 address: 0x1d7f9401490 with value: 300
 
-Main - Local variable address: 0x5fa21ff9dc
+Main - Local variable address: 0x40e01ff82c
